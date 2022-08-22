@@ -1,10 +1,47 @@
-body{
+body{ margin: 0%;
     font-family: 'Roboto', sans-serif;
 }
 h1{
     font-size: 50px;
-    color: goldenrod;
+    color: rgb(27, 27, 25);
 }
 .name{
     color: yellowgreen;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+    padding-left: 1%;
+}
+.half img{
+    width: 100%;
+}
+.background{
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+.background2{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+section{
+    height: 700px;
+}
+p{
+    color: dimgray;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(25deg, rgb(150, 148, 148) , rgb(2, 2, 2));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+#side-image{
+    margin-left: 40%;
+    margin-bottom: 40%;
 }
